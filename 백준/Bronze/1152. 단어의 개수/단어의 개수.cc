@@ -12,7 +12,6 @@ int cntWord(string str){
 }
 
 int main(void){
-  int cnt;
   string str;
   getline(cin, str);
 
