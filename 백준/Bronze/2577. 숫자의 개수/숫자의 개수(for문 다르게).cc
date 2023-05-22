@@ -12,7 +12,7 @@ int main(void){
     result /= 10;
   }
 
-  for(int value: arr)
+  for(int value: arr) // Range-based for loop : 컨테이너 arr의 원소를 시작부터 끝까지 순차적으로 탐색
     cout << value << endl;
   
   return 0;
